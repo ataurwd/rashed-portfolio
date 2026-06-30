@@ -6,21 +6,21 @@ import { Star, Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Marketing Director",
-    role: "E-commerce Business",
-    text: "Dipto Das SEO completely transformed our online presence. We saw a significant increase in organic traffic and improved search rankings within just a few months.",
+    name: "Sarah Jenkins",
+    role: "Head of Marketing at TechFlow SaaS",
+    text: "Rashadul's articles completely changed our blog's performance. Our organic traffic doubled, and readers are staying on the page much longer. Her content strategy is top-notch.",
     stars: 5,
   },
   {
-    name: "Senior Partner",
-    role: "Law Firm",
-    text: "We&apos;re now ranking at the top for our local services. Their local SEO strategy was exactly what we needed to grow our client base.",
+    name: "David Miller",
+    role: "Founder of EcoStyle E-commerce",
+    text: "The website copy Rashadul wrote for our landing page improved our conversion rate by 35% in the first month alone. She is exceptionally talented and easy to work with.",
     stars: 5,
   },
   {
-    name: "Founder",
-    role: "SaaS Startup",
-    text: "The technical SEO fixes alone saved our organic performance. I highly recommend Dipto for any business looking for measurable digital growth.",
+    name: "Elena Rostova",
+    role: "Content Director at GrowthLabs",
+    text: "She has an incredible ability to take complex technical topics and make them easy and engaging for our audience to read. Highly recommend her for any serious SaaS brand.",
     stars: 5,
   },
 ]
@@ -30,9 +30,9 @@ export function Testimonials() {
     <Section id="testimonials">
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">Testimonials</h2>
-        <h3 className="text-4xl md:text-5xl font-bold mb-6">What Our Clients Say</h3>
+        <h3 className="text-4xl md:text-5xl font-bold mb-6">What My Clients Say</h3>
         <p className="text-lg text-muted-foreground">
-          Don&apos;t just take our word for it. Hear from the businesses we&apos;ve helped scale.
+          Don't just take my word for it. Hear from the brands I've helped scale.
         </p>
       </div>
 
@@ -52,7 +52,7 @@ export function Testimonials() {
                 <Star key={i} size={16} className="fill-primary text-primary" />
               ))}
             </div>
-            <p className="text-lg mb-8 flex-1 leading-relaxed italic text-foreground/90">
+            <p className="text-lg mb-8 flex-1 leading-relaxed italic text-foreground/90 font-medium">
               &quot;{t.text}&quot;
             </p>
             <div>
@@ -65,9 +65,10 @@ export function Testimonials() {
       
       <div className="mt-16 text-center">
         <p className="text-sm font-bold uppercase tracking-widest text-muted-foreground">
-          Delivering long-term results through expert SEO strategy.
+          Delivering long-term results through expert content strategy.
         </p>
       </div>
     </Section>
   )
 }
+

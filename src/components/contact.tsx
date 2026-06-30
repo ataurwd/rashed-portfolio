@@ -15,9 +15,9 @@ export function Contact() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">Get In Touch</h2>
-          <h3 className="text-4xl md:text-5xl font-bold mb-8">Start Your SEO Journey Today</h3>
+          <h3 className="text-4xl md:text-5xl font-bold mb-8">Let's Tell Your Brand's Story</h3>
           <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
-            Ready to boost your website&apos;s visibility? Reach out for inquiries or to discuss how we can grow your online presence together.
+            Ready to elevate your content? Reach out for inquiries, custom writing packages, or to discuss your content strategy.
           </p>
 
           <div className="space-y-6">
@@ -27,7 +27,7 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-sm text-muted-foreground font-bold uppercase tracking-wider">Email Me</p>
-                <p className="text-xl font-bold">diptodas.work@gmail.com</p>
+                <p className="text-xl font-bold">rashadul.writes@gmail.com</p>
               </div>
             </div>
             
@@ -37,7 +37,7 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-sm text-muted-foreground font-bold uppercase tracking-wider">Call Me</p>
-                <p className="text-xl font-bold">01961480274</p>
+                <p className="text-xl font-bold">+880 1961-480274</p>
               </div>
             </div>
 
@@ -81,10 +81,10 @@ export function Contact() {
             </div>
             
             <div className="space-y-2">
-              <label className="text-sm font-bold text-muted-foreground uppercase ml-1">Website URL</label>
+              <label className="text-sm font-bold text-muted-foreground uppercase ml-1">Website / Company URL</label>
               <input 
                 type="url" 
-                placeholder="https://yourwebsite.com"
+                placeholder="https://yourcompany.com"
                 className="w-full bg-secondary/50 border border-border rounded-2xl py-4 px-6 focus:ring-1 focus:ring-primary outline-none transition-all"
               />
             </div>
@@ -93,7 +93,7 @@ export function Contact() {
               <label className="text-sm font-bold text-muted-foreground uppercase ml-1">Message</label>
               <textarea 
                 rows={4}
-                placeholder="Tell me about your business goals..."
+                placeholder="Tell me about your content goals..."
                 className="w-full bg-secondary/50 border border-border rounded-2xl py-4 px-6 focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
               />
             </div>
@@ -107,3 +107,4 @@ export function Contact() {
     </Section>
   )
 }
+

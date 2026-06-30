@@ -7,24 +7,24 @@ import * as React from "react"
 
 const faqs = [
   {
-    question: "How long does it take to see SEO results?",
-    answer: "Typically, you can expect to see noticeable improvements within 3 to 6 months. SEO is a long-term investment, but the compounding effects of organic growth provide the highest ROI over time.",
+    question: "What is your content writing process?",
+    answer: "Every project starts with thorough research into your niche, target audience, and key competitors. I then create a detailed outline, draft the piece, optimize it for SEO using modern tools, and refine it based on your feedback.",
   },
   {
-    question: "Do you guarantee #1 rankings on Google?",
-    answer: "No reputable SEO expert can guarantee #1 rankings as search algorithms are constantly changing. However, we guarantee best-in-class strategies, data-driven execution, and a proven track record of significant traffic growth.",
+    question: "Can you match our brand's tone of voice?",
+    answer: "Yes, absolutely! Whether your brand voice is professional and authoritative, casual and conversational, or bold and witty, I adapt my writing style to match your established guidelines and audience expectations.",
   },
   {
-    question: "What industries do you specialize in?",
-    answer: "We have extensive experience in Ecommerce, SaaS, Fintech, and High-Ticket Service businesses. Our data-driven methodology is adaptable to almost any competitive niche.",
+    question: "Do you offer revisions?",
+    answer: "Yes, I offer up to two rounds of revisions for every piece of content to ensure it perfectly aligns with your expectations, brand guidelines, and goals.",
   },
   {
-    question: "How do you measure SEO success?",
-    answer: "We focus on the metrics that matter most to your business: organic conversions, revenue growth, high-intent keyword rankings, and organic traffic quality.",
+    question: "Are your articles optimized for search engines?",
+    answer: "Yes. All articles are written with search intent in mind, incorporating target keywords naturally, structuring headings properly, and optimizing for readability using tools like SurferSEO or Clearscope.",
   },
   {
-    question: "What tools do you use for SEO?",
-    answer: "We use a premium stack including Ahrefs, SEMrush, Google Search Console, Screaming Frog, and custom internal tools for data analysis and reporting.",
+    question: "What industries do you write for?",
+    answer: "I specialize in SaaS, Tech, E-commerce, Marketing, and Digital Health. However, my research-driven approach allows me to write authoritative content for almost any competitive industry.",
   },
 ]
 
@@ -79,3 +79,4 @@ export function FAQ() {
     </Section>
   )
 }
+

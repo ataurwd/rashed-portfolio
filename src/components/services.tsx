@@ -2,33 +2,33 @@
 
 import { Section } from "./section"
 import { 
-  Search, 
-  Settings, 
-  Link2, 
-  MapPin
+  FileText, 
+  Sparkles, 
+  Compass, 
+  Mail
 } from "lucide-react"
 import { motion } from "framer-motion"
 
 const services = [
   {
-    title: "On-Page SEO",
-    description: "Keyword optimization, meta tags, and high-quality content improvements to ensure your pages rank for the right terms.",
-    icon: Search,
+    title: "SEO Articles & Blog Posts",
+    description: "Engaging, long-form content optimized for search engines to drive organic traffic, rank for high-value keywords, and establish authority.",
+    icon: FileText,
   },
   {
-    title: "Off-Page SEO",
-    description: "Authority-boosting link-building strategies, guest blogging, and strategic outreach to grow your domain&apos;s trust.",
-    icon: Link2,
+    title: "Website Copywriting",
+    description: "High-converting copy for landing pages, about pages, and product descriptions designed to turn visitors into loyal customers.",
+    icon: Sparkles,
   },
   {
-    title: "Local SEO",
-    description: "Improve your local rankings and visibility on Google Maps to attract nearby customers and grow your local presence.",
-    icon: MapPin,
+    title: "Content Strategy & Planning",
+    description: "Data-driven content calendars, comprehensive keyword mapping, and topic clusters designed to scale your brand's footprint.",
+    icon: Compass,
   },
   {
-    title: "Technical SEO",
-    description: "Optimizing website speed, mobile-friendliness, and crawlability to provide a perfect foundation for search engine success.",
-    icon: Settings,
+    title: "Email Newsletters & Copy",
+    description: "Compelling email campaigns and newsletters that nurture relationships, build community, and drive repeat engagement.",
+    icon: Mail,
   }
 ]
 
@@ -36,10 +36,10 @@ export function Services() {
   return (
     <Section id="services" className="bg-secondary/30">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">Our Expertise</h2>
-        <h3 className="text-4xl md:text-5xl font-bold mb-6">Full Spectrum SEO Services</h3>
+        <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">My Expertise</h2>
+        <h3 className="text-4xl md:text-5xl font-bold mb-6">Strategic Content Writing Services</h3>
         <p className="text-lg text-muted-foreground">
-          At Dipto Das SEO, we offer services tailored to meet your business&apos;s unique needs and help you rank higher on search engines.
+          I offer services tailored to meet your brand's unique needs and help you connect with your audience while ranking on search engines.
         </p>
       </div>
 
@@ -73,3 +73,4 @@ export function Services() {
     </Section>
   )
 }
+

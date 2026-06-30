@@ -5,10 +5,10 @@ import { motion } from "framer-motion"
 import * as React from "react"
 
 const stats = [
-  { label: "Traffic Growth", value: "40%+", sub: "In just 3 months" },
-  { label: "Projects Completed", value: "100+", sub: "Proven track record" },
-  { label: "Rankings", value: "#1", sub: "For local keywords" },
-  { label: "Bounce Rate", value: "-25%", sub: "Improved UX performance" },
+  { label: "Words Written", value: "1.2M+", sub: "Across various niches" },
+  { label: "Articles Published", value: "250+", sub: "High-authority sites" },
+  { label: "Traffic Growth", value: "150%+", sub: "On client blogs" },
+  { label: "Client Retention", value: "92%", sub: "Long-term relationships" },
 ]
 
 // Fixed values to avoid Math.random() in render for purity
@@ -21,10 +21,10 @@ export function Stats() {
   return (
     <Section id="results" className="bg-background relative">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">Our Results</h2>
+        <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">My Results</h2>
         <h3 className="text-4xl md:text-5xl font-bold mb-6">Transparency & Measurable Success</h3>
         <p className="text-lg text-muted-foreground">
-          Over the years, we&apos;ve delivered significant improvements in website rankings, traffic, and conversions for our clients.
+          Over the years, I've delivered significant improvements in engagement, organic traffic, and conversions through high-quality content.
         </p>
       </div>
 
@@ -49,13 +49,13 @@ export function Stats() {
 
       {/* Mini Chart Visualization */}
       <div className="mt-24 p-8 glass rounded-[2.5rem] border border-border relative overflow-hidden">
-        <div className="flex flex-col md:row items-center justify-between mb-12 gap-6">
+        <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
           <div>
-            <h3 className="text-2xl font-bold mb-2">Proven SEO Performance</h3>
-            <p className="text-muted-foreground">Consistently delivering ROI through strategic search engine dominance and technical excellence.</p>
+            <h3 className="text-2xl font-bold mb-2">Proven Content Performance</h3>
+            <p className="text-muted-foreground">Consistently delivering ROI through engaging copy and strategic topic clusters.</p>
           </div>
           <button className="px-6 py-3 bg-primary text-primary-foreground rounded-xl font-bold hover:opacity-90 transition-all">
-            Download Case Studies
+            View My Portfolio
           </button>
         </div>
 
@@ -77,3 +77,4 @@ export function Stats() {
     </Section>
   )
 }
+

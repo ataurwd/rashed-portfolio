@@ -7,10 +7,10 @@ export function Footer() {
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-1">
           <Link href="/" className="text-2xl font-bold tracking-tighter mb-4 block">
-            DIPTO DAS <span className="text-primary">SEO</span>
+            RASHADUL ISLAM <span className="text-primary">WRITES</span>
           </Link>
           <p className="text-muted-foreground mb-6">
-            Helping businesses succeed in the digital space with over 4 years of specialized SEO expertise.
+            Helping brands connect, engage, and convert with over 4 years of specialized content writing and strategy expertise.
           </p>
           <div className="flex gap-4">
             <Link href="#" className="p-2 bg-secondary rounded-full hover:text-primary transition-colors"><X size={18} /></Link>
@@ -20,19 +20,19 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="font-bold mb-6">SEO Services</h4>
+          <h4 className="font-bold mb-6">Writing Services</h4>
           <ul className="space-y-4 text-muted-foreground text-sm">
-            <li><Link href="#services" className="hover:text-primary transition-colors">On-Page SEO</Link></li>
-            <li><Link href="#services" className="hover:text-primary transition-colors">Off-Page SEO</Link></li>
-            <li><Link href="#services" className="hover:text-primary transition-colors">Local SEO</Link></li>
-            <li><Link href="#services" className="hover:text-primary transition-colors">Technical SEO</Link></li>
+            <li><Link href="#services" className="hover:text-primary transition-colors">SEO Articles</Link></li>
+            <li><Link href="#services" className="hover:text-primary transition-colors">Website Copy</Link></li>
+            <li><Link href="#services" className="hover:text-primary transition-colors">Content Strategy</Link></li>
+            <li><Link href="#services" className="hover:text-primary transition-colors">Email Newsletters</Link></li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-bold mb-6">Company</h4>
+          <h4 className="font-bold mb-6">Explore</h4>
           <ul className="space-y-4 text-muted-foreground text-sm">
-            <li><Link href="#about" className="hover:text-primary transition-colors">About Dipto</Link></li>
+            <li><Link href="#about" className="hover:text-primary transition-colors">About Rashadul</Link></li>
             <li><Link href="#case-studies" className="hover:text-primary transition-colors">Case Studies</Link></li>
             <li><Link href="#results" className="hover:text-primary transition-colors">Success Results</Link></li>
             <li><Link href="#contact" className="hover:text-primary transition-colors">Contact</Link></li>
@@ -41,7 +41,7 @@ export function Footer() {
 
         <div>
           <h4 className="font-bold mb-6">Stay Updated</h4>
-          <p className="text-muted-foreground mb-4 text-sm">Get the latest SEO insights delivered to your inbox.</p>
+          <p className="text-muted-foreground mb-4 text-sm">Get the latest content strategy and writing insights delivered to your inbox.</p>
           <div className="relative">
             <input 
               type="email" 
@@ -55,8 +55,8 @@ export function Footer() {
         </div>
       </div>
       
-      <div className="max-w-[1200px] mx-auto mt-20 pt-8 border-t border-border flex flex-col md:row justify-between items-center gap-4 text-xs text-muted-foreground">
-        <p>© 2026 DIPTO DAS SEO. All rights reserved.</p>
+      <div className="max-w-[1200px] mx-auto mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
+        <p>© 2026 RASHADUL ISLAM. All rights reserved.</p>
         <div className="flex gap-8">
           <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
           <Link href="#" className="hover:text-primary transition-colors">Terms of Service</Link>
@@ -65,3 +65,4 @@ export function Footer() {
     </footer>
   )
 }
+

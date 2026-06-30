@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dipto Das SEO | Boost Your Website's Visibility",
-  description: "Dipto Das is an SEO expert with over 4 years of experience specializing in on-page, off-page, and technical SEO to drive organic traffic.",
-  keywords: ["Dipto Das SEO", "SEO Expert", "Organic Traffic", "SEO Audit", "Search Engine Optimization"],
-  authors: [{ name: "Dipto Das" }],
+  title: "Rashadul Islam | Professional Content Writer & Strategist",
+  description: "Rashadul Islam is a professional content writer and strategist with over 4 years of experience specializing in SEO copywriting, SaaS & Tech content, and brand storytelling.",
+  keywords: ["Rashadul Islam", "Content Writer", "Copywriter", "SEO Content Strategy", "SaaS Copywriter", "Freelance Writer"],
+  authors: [{ name: "Rashadul Islam" }],
   openGraph: {
-    title: "Dipto Das SEO | Expert Digital Growth Strategist",
-    description: "Measurable results and data-driven SEO strategies to help your business succeed.",
+    title: "Rashadul Islam | Content Writer & Strategist",
+    description: "High-impact, engaging content and data-driven SEO strategy to help your business grow.",
     type: "website",
   },
 };

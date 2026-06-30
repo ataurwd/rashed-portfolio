@@ -2,28 +2,28 @@
 
 import { Section } from "./section"
 import { motion } from "framer-motion"
-import { ArrowUpRight, TrendingUp, Users, DollarSign, MapPin } from "lucide-react"
+import { ArrowUpRight, TrendingUp, Users, DollarSign, BookOpen } from "lucide-react"
 
 const cases = [
   {
-    title: "E-Commerce SEO Success",
-    desc: "For an online retail client, we increased organic traffic by 40% and improved product rankings through targeted keyword optimization and technical improvements.",
-    niche: "Online Retail",
+    title: "Scaling SaaS Blog Traffic",
+    desc: "Created a comprehensive topic cluster and wrote 15 high-quality, SEO-optimized articles for a B2B SaaS client, increasing organic product sign-ups by 60% in 4 months.",
+    niche: "SaaS & Tech",
     stats: [
-      { label: "Traffic Growth", value: "+40%", icon: TrendingUp },
-      { label: "Rankings", value: "Page 1", icon: DollarSign },
-      { label: "Timeline", value: "3 Months", icon: Users },
+      { label: "Traffic Growth", value: "+120%", icon: TrendingUp },
+      { label: "Conversion Rate", value: "4.5%", icon: DollarSign },
+      { label: "Keyword Rank", value: "Top 5", icon: Users },
     ],
     color: "from-blue-500 to-cyan-400"
   },
   {
-    title: "Local SEO for Law Firm",
-    desc: "We helped a law firm achieve first-page rankings for key local keywords, driving more consultations and increasing their client base through Google My Business optimization.",
-    niche: "Law Firm",
+    title: "Revamping E-Commerce Copy",
+    desc: "Rewrote all product descriptions and core landing pages for a sustainable fashion brand, boosting conversion rates and significantly increasing average order value.",
+    niche: "E-Commerce & Retail",
     stats: [
-      { label: "Local Rankings", value: "Top 3", icon: MapPin },
-      { label: "Lead Gen", value: "+150%", icon: Users },
-      { label: "Visibility", value: "Maps #1", icon: TrendingUp },
+      { label: "Sales Increase", value: "+45%", icon: DollarSign },
+      { label: "Bounce Rate", value: "-30%", icon: TrendingUp },
+      { label: "Click-Through", value: "+25%", icon: Users },
     ],
     color: "from-purple-500 to-pink-400"
   }
@@ -32,10 +32,10 @@ const cases = [
 export function CaseStudies() {
   return (
     <Section id="case-studies">
-      <div className="flex flex-col md:row justify-between items-end mb-16 gap-6">
+      <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
         <div className="max-w-2xl">
           <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">Case Studies</h2>
-          <h3 className="text-4xl md:text-5xl font-bold">Real Results for Real Businesses</h3>
+          <h3 className="text-4xl md:text-5xl font-bold">Featured Writing Projects</h3>
         </div>
         <button className="text-lg font-bold flex items-center gap-2 hover:text-primary transition-colors">
           View All Projects <ArrowUpRight size={20} />
@@ -80,7 +80,7 @@ export function CaseStudies() {
                 {/* Placeholder for Case Study Image/Chart */}
                 <div className={`absolute inset-0 bg-linear-to-br ${project.color} opacity-10`} />
                 <div className="absolute inset-0 flex items-center justify-center italic text-muted-foreground text-sm">
-                  Analytics Performance Snapshot
+                  Content Case Study
                 </div>
                 
                 <div className="absolute bottom-6 left-6 right-6">
@@ -99,3 +99,4 @@ export function CaseStudies() {
     </Section>
   )
 }
+

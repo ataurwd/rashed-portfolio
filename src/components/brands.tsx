@@ -3,7 +3,7 @@
 import { Marquee } from "./marquee"
 
 const brands = [
-  "NEXTJS", "TAILWIND", "AHREFS", "SEMRUSH", "GOOGLE", "SHOPIFY", "HUBSPOT", "ADOBE"
+  "MEDIUM", "SUBSTACK", "WORDPRESS", "HUBSPOT", "NOTION", "CANVA", "MAILCHIMP", "GOOGLE DOCS"
 ]
 
 export function Brands() {
