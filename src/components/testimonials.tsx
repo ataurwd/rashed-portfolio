@@ -32,7 +32,7 @@ export function Testimonials() {
         <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">Testimonials</h2>
         <h3 className="text-4xl md:text-5xl font-bold mb-6">What My Clients Say</h3>
         <p className="text-lg text-muted-foreground">
-          Don't just take my word for it. Hear from the brands I've helped scale.
+          Don&apos;t just take my word for it. Hear from the brands I&apos;ve helped scale.
         </p>
       </div>
 

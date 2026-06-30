@@ -2,7 +2,7 @@
 
 import { Section } from "./section"
 import { motion } from "framer-motion"
-import { ArrowUpRight, TrendingUp, Users, DollarSign, BookOpen } from "lucide-react"
+import { ArrowUpRight, TrendingUp, Users, DollarSign } from "lucide-react"
 
 const cases = [
   {

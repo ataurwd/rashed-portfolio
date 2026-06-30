@@ -8,8 +8,32 @@ export function Hero() {
     <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-background">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-        <div className="absolute top-[10%] left-[10%] w-[40rem] h-[40rem] bg-primary/10 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[10%] right-[10%] w-[30rem] h-[30rem] bg-highlight/20 rounded-full blur-[100px]" />
+        <motion.div 
+          animate={{
+            x: [0, 30, -30, 0],
+            y: [0, -50, 30, 0],
+            scale: [1, 1.1, 0.95, 1],
+          }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          className="absolute top-[10%] left-[10%] w-[40rem] h-[40rem] bg-primary/10 rounded-full blur-[120px]" 
+        />
+        <motion.div 
+          animate={{
+            x: [0, -40, 40, 0],
+            y: [0, 50, -30, 0],
+            scale: [1, 0.95, 1.1, 1],
+          }}
+          transition={{
+            duration: 25,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          className="absolute bottom-[10%] right-[10%] w-[30rem] h-[30rem] bg-highlight/20 rounded-full blur-[100px]" 
+        />
       </div>
 
       <div className="max-w-[1000px] mx-auto px-6 flex flex-col items-center justify-center text-center relative z-10">

@@ -39,7 +39,7 @@ export function Services() {
         <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">My Expertise</h2>
         <h3 className="text-4xl md:text-5xl font-bold mb-6">Strategic Content Writing Services</h3>
         <p className="text-lg text-muted-foreground">
-          I offer services tailored to meet your brand's unique needs and help you connect with your audience while ranking on search engines.
+          I offer services tailored to meet your brand&apos;s unique needs and help you connect with your audience while ranking on search engines.
         </p>
       </div>
 

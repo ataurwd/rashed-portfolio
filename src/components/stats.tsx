@@ -24,7 +24,7 @@ export function Stats() {
         <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">My Results</h2>
         <h3 className="text-4xl md:text-5xl font-bold mb-6">Transparency & Measurable Success</h3>
         <p className="text-lg text-muted-foreground">
-          Over the years, I've delivered significant improvements in engagement, organic traffic, and conversions through high-quality content.
+          Over the years, I&apos;ve delivered significant improvements in engagement, organic traffic, and conversions through high-quality content.
         </p>
       </div>
 

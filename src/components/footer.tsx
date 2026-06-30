@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-1">
           <Link href="/" className="text-2xl font-bold tracking-tighter mb-4 block">
-            RASHADUL ISLAM <span className="text-primary">WRITES</span>
+            RI <span className="text-primary">WRITES</span>
           </Link>
           <p className="text-muted-foreground mb-6">
             Helping brands connect, engage, and convert with over 4 years of specialized content writing and strategy expertise.
@@ -56,7 +56,7 @@ export function Footer() {
       </div>
       
       <div className="max-w-[1200px] mx-auto mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
-        <p>© 2026 RASHADUL ISLAM. All rights reserved.</p>
+        <p>© 2026 RI WRITES. All rights reserved.</p>
         <div className="flex gap-8">
           <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
           <Link href="#" className="hover:text-primary transition-colors">Terms of Service</Link>

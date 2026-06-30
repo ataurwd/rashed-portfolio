@@ -15,7 +15,7 @@ export function Contact() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-4">Get In Touch</h2>
-          <h3 className="text-4xl md:text-5xl font-bold mb-8">Let's Tell Your Brand's Story</h3>
+          <h3 className="text-4xl md:text-5xl font-bold mb-8">Let&apos;s Tell Your Brand&apos;s Story</h3>
           <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
             Ready to elevate your content? Reach out for inquiries, custom writing packages, or to discuss your content strategy.
           </p>

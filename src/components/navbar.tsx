@@ -53,7 +53,7 @@ export function Navbar() {
       <div className="max-w-[1200px] mx-auto py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className={cn("text-xl font-bold tracking-tighter transition-colors", textColor)}>
-            RASHADUL ISLAM <span className="text-primary">WRITES</span>
+            RI <span className="text-primary">WRITES</span>
           </Link>
         </div>
 
